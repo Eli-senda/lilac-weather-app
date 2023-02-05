@@ -104,12 +104,17 @@ p {
   color: #3f4268ff;
 }
 
-h6 {
-  font-weight: bold;
-  font-size: 12px;
-  color: #3f4268ff;
+a,
+a:link,
+a:visited {
+  font-size: 16px;
+  color: white;
+  font-family: "Manrope", sans-serif;
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
+
 body {
   background: url(https://static.vecteezy.com/system/resources/previews/002/099/717/original/mountain-beautiful-landscape-background-design-illustration-free-vector.jpg)
     no-repeat center center fixed;
