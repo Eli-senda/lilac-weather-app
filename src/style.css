@@ -1,0 +1,130 @@
+.App {
+  margin: 60px auto;
+  max-width: 800px;
+}
+.container {
+  max-width: 720px;
+}
+
+.weather {
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  font-family: "Manrope", sans-serif;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.search-input {
+  background-color: rgb(217, 223, 249);
+  border-radius: 8px;
+  border-color: #3f4268ff;
+  font-family: "Manrope", sans-serif;
+  height: 42px;
+  padding: 0 24px;
+}
+
+.search-button {
+  background-color: #6c7393ff;
+  border-radius: 8px;
+  border-color: #6c7393ff;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Manrope", sans-serif;
+  height: 42px;
+}
+.current-location-button {
+  background-color: #3f4268ff;
+  border-radius: 8px;
+  border-color: #3f4268ff;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Manrope", sans-serif;
+  height: 42px;
+}
+
+.row {
+  margin-bottom: 40px;
+  width: 100%;
+  display: block;
+  font-family: "Manrope", sans-serif;
+}
+
+.col-md-9 {
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+
+.forecast-row {
+  column-count: 5;
+  text-align: center;
+}
+
+.forecast-time {
+  font-weight: bold;
+  color: black;
+}
+
+#city {
+  font-weight: bold;
+  font-size: 60px;
+  color: #3f4268ff;
+}
+
+#today-img {
+  width: 100px;
+}
+#forecast-img {
+  width: 70px;
+}
+
+strong {
+  font-weight: 400;
+  font-size: 20px;
+  color: #252946ff;
+}
+
+small {
+  color: #252946ff;
+}
+
+h1,
+.units,
+.temperature {
+  font-weight: bold;
+  font-size: 60px;
+  color: #252946ff;
+  font-family: "Manrope", sans-serif;
+}
+p {
+  font-weight: bold;
+  font-size: 20px;
+  color: #3f4268ff;
+}
+body {
+  background: url(https://static.vecteezy.com/system/resources/previews/002/099/717/original/mountain-beautiful-landscape-background-design-illustration-free-vector.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+input {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+div {
+  display: block;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+  text-align: center;
+}
