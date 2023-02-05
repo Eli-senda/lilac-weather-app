@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Lilac Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="weather">
+                <form class="search-form" id="search-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="search" id="city-input" placeholder="Enter a city" class="search-input" />
+                        </div>
+                        <div class="col-md-3">
+                            <input type="submit" value="Search" class="search-button" />
+                        </div>
+                        <div class="col-md-3">
+                            <input type="submit" value="Current" class="current-location-button" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 id="city">
+                                <span></span></h1>
+                                <h6 class="currentTime">
+                                    <span id="current-time"></span>
+                                    <br />
+                                    <span id="description"></span>
+                                </h6>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="images/snow.png" alt="weather-example" id="today-img" class="today-weather">
+                        </div>
+                        <div class="col-md-4">
+                            <span class="temperature" id="temperature"></span><span class="units">°C</span>
+                            <p>
+                                <strong>Humidity: </strong><span id="humidity"></span>%</li> <br />
+                                <strong>Wind Speed: </strong><span id="wind"></span> km/h</li>
+                            </p>
+                        </div>
+
+
+                    </div>
+                    <div class="forecast-row">
+                        <div class="col">
+                            <div class="forecast-time">Mon </div>
+                            <img src="images/snow.png" alt="weather-example" id="forecast-img">
+                            <p>
+                                18°C </br> <small>9°C</small>
+                            </p>
+
+                        </div>
+                        <div class="col">
+                            <div class="forecast-time">Tue</div>
+                            <img src="images/snow.png" alt="weather-example" id="forecast-img">
+                            <p>
+                                15°C </br> <small>10°C</small>
+
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div class="forecast-time">Wed</div>
+                            <img src="images/rain.png" alt="weather-example" id="forecast-img">
+                            <p>
+                                12°C </br> <small>6°C</small>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div class="forecast-time">Thu</div>
+                            <img src="images/windy.png" alt="weather-example" id="forecast-img">
+                            <p>
+                                16°C </br> <small>5°C</small>
+                            </p>
+                        </div>
+                        <div class="col">
+                            <div class="forecast-time">Fri</div>
+                            <img src="images/windy.png" alt="weather-example" id="forecast-img">
+                            <p>
+                                15°C </br> <small>10°C</small>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
