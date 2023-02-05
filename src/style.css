@@ -103,6 +103,13 @@ p {
   font-size: 20px;
   color: #3f4268ff;
 }
+
+h6 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #3f4268ff;
+  text-align: center;
+}
 body {
   background: url(https://static.vecteezy.com/system/resources/previews/002/099/717/original/mountain-beautiful-landscape-background-design-illustration-free-vector.jpg)
     no-repeat center center fixed;
