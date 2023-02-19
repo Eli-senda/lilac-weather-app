@@ -17,27 +17,27 @@
 }
 
 .search-input {
-  background-color: rgb(217, 223, 249);
+  background-color: #fde1d7;
   border-radius: 8px;
-  border-color: #3f4268ff;
+  border-color: #790536;
   font-family: "Manrope", sans-serif;
   height: 42px;
   padding: 0 24px;
 }
 
 .search-button {
-  background-color: #6c7393ff;
+  background-color: #e95a49;
   border-radius: 8px;
-  border-color: #6c7393ff;
-  color: #ffffff;
+  border-color: #e95a49;
+  color: #4c0030;
   font-weight: bold;
   font-family: "Manrope", sans-serif;
   height: 42px;
 }
 .current-location-button {
-  background-color: #3f4268ff;
+  background-color: #790536;
   border-radius: 8px;
-  border-color: #3f4268ff;
+  border-color: #790536;
   color: #ffffff;
   font-weight: bold;
   font-family: "Manrope", sans-serif;
@@ -64,13 +64,13 @@
 
 .forecast-time {
   font-weight: bold;
-  color: black;
+  color: #4c0030;
 }
 
 #city {
   font-weight: bold;
   font-size: 60px;
-  color: #3f4268ff;
+  color: #4c0030;
 }
 
 #today-img {
@@ -83,11 +83,11 @@
 strong {
   font-weight: 400;
   font-size: 20px;
-  color: #252946ff;
+  color: #4c0030;
 }
 
 small {
-  color: #252946ff;
+  color: #4c0030;
 }
 
 h1,
@@ -95,13 +95,13 @@ h1,
 .temperature {
   font-weight: bold;
   font-size: 60px;
-  color: #252946ff;
+  color: #4c0030;
   font-family: "Manrope", sans-serif;
 }
 p {
   font-weight: bold;
   font-size: 20px;
-  color: #3f4268ff;
+  color: #4c0030;
 }
 
 a,
@@ -116,7 +116,7 @@ a:visited {
 }
 
 body {
-  background: url(https://static.vecteezy.com/system/resources/previews/002/099/717/original/mountain-beautiful-landscape-background-design-illustration-free-vector.jpg)
+  background: url(https://www.wallpaperflare.com/static/919/780/945/minimalism-landscape-digital-art-mountains-wallpaper.jpg)
     no-repeat center center fixed;
   background-size: cover;
   height: 100%;
