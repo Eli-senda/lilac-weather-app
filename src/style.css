@@ -17,27 +17,27 @@
 }
 
 .search-input {
-  background-color: #fde1d7;
+  background-color: #ffeef5;
   border-radius: 8px;
-  border-color: #790536;
+  border-color: #281c44;
   font-family: "Manrope", sans-serif;
   height: 42px;
   padding: 0 24px;
 }
 
 .search-button {
-  background-color: #e95a49;
+  background-color: #8d7496;
   border-radius: 8px;
-  border-color: #e95a49;
-  color: #4c0030;
+  border-color: #8d7496;
+  color: #281c44;
   font-weight: bold;
   font-family: "Manrope", sans-serif;
   height: 42px;
 }
 .current-location-button {
-  background-color: #790536;
+  background-color: #281c44;
   border-radius: 8px;
-  border-color: #790536;
+  border-color: #281c44;
   color: #ffffff;
   font-weight: bold;
   font-family: "Manrope", sans-serif;
@@ -64,21 +64,23 @@
 
 .forecast-time {
   font-weight: bold;
-  color: #4c0030;
+  color: #281c44;
 }
 
 #fahrenheit-link,
 #celsius-link {
   font-weight: bold;
   font-size: 30px;
-  color: #4c0030;
+  color: #8d7496;
 }
 #city {
   font-weight: bold;
   font-size: 60px;
-  color: #4c0030;
+  color: #281c44;
 }
-
+#icon {
+  width: 140px;
+}
 #today-img {
   width: 100px;
 }
@@ -89,25 +91,29 @@
 strong {
   font-weight: 400;
   font-size: 20px;
-  color: #4c0030;
+  color: #281c44;
 }
 
 small {
-  color: #4c0030;
+  color: #281c44;
 }
 
 h1,
 .units,
-.temperature {
+#temperature {
   font-weight: bold;
   font-size: 60px;
-  color: #4c0030;
+  color: #281c44;
   font-family: "Manrope", sans-serif;
 }
 p {
   font-weight: bold;
   font-size: 20px;
-  color: #4c0030;
+  color: #ffffff;
+}
+
+small {
+  color: #8d7496;
 }
 
 a,
@@ -117,12 +123,11 @@ a:visited {
   color: white;
   font-family: "Manrope", sans-serif;
   text-align: center;
-  display: block;
-  margin: 0 auto;
+  display: inline;
 }
 
 body {
-  background: url(https://www.wallpaperflare.com/static/919/780/945/minimalism-landscape-digital-art-mountains-wallpaper.jpg)
+  background: url(https://images.hdqwalls.com/wallpapers/minimal-landscape-4k-ro.jpg)
     no-repeat center center fixed;
   background-size: cover;
   height: 100%;
