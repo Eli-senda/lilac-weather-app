@@ -57,12 +57,8 @@
   text-align: left;
 }
 
-.forecast-row {
-  column-count: 5;
+#forecast {
   text-align: center;
-}
-
-.forecast-time {
   font-weight: bold;
   color: #281c44;
 }
@@ -83,9 +79,6 @@
 }
 #today-img {
   width: 100px;
-}
-#forecast-img {
-  width: 70px;
 }
 
 strong {
