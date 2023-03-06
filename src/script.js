@@ -108,7 +108,6 @@ function displayForecast(response) {
           }@2x.png"
           alt=""
           width="60"
-          text-align="centre"
         />
         <div class="weather-forecast-temperatures">
           <span class="weather-forecast-temperature-max"> ${Math.round(
@@ -130,7 +129,7 @@ function displayForecast(response) {
 function getForecast(coordinates) {
   console.log(coordinates);
   let key = "c5f0e59acac64258bb92ed027d20c68f";
-  let units = "metrics";
+  let units = "metric";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${key}&units=${units}`;
   axios.get(apiUrl).then(displayForecast);
 }
